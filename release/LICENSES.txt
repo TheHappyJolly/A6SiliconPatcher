@@ -1,0 +1,9 @@
+Components bundled with the Apple Silicon engine (the license texts are in each package's *.dist-info / LICENSE files):
+  Python 3.11 (x86_64)        Python Software Foundation License
+  PyObjC (objc, AppKit, ...)  MIT License
+  numpy                       BSD 3-Clause License
+  cffi, pycparser             MIT / BSD 3-Clause
+  sounddevice, PortAudio      MIT License
+  LIEF (installer only)       Apache License 2.0
+The engine itself (n6/, native/, guestlib/, tools/) is original code. It contains no code or data of the game; the game's own files
+are taken from the copy of "Asphalt 6.app" that the user already has.
